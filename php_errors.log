@@ -1,0 +1,12 @@
+[08-Apr-2023 18:29:05 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 27
+[08-Apr-2023 18:29:05 Europe/Moscow] PHP Stack trace:
+[08-Apr-2023 18:29:05 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[08-Apr-2023 18:29:05 Europe/Moscow] Login success 
+[08-Apr-2023 18:29:23 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 27
+[08-Apr-2023 18:29:23 Europe/Moscow] PHP Stack trace:
+[08-Apr-2023 18:29:23 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[08-Apr-2023 18:29:23 Europe/Moscow] Login success 
+[08-Apr-2023 18:29:56 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 27
+[08-Apr-2023 18:29:56 Europe/Moscow] PHP Stack trace:
+[08-Apr-2023 18:29:56 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[08-Apr-2023 18:29:56 Europe/Moscow] Login success 
