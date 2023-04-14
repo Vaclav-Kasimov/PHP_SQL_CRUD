@@ -1,42 +1,10 @@
 <?php
     require_once('PDO_connect.php');
+    require_once('model.php');
+    require_once('controller.php');
+
     session_start();
-    function db_print($pdo){
-        if (isset($_SESSION['name'])){
-            $statement = $pdo->query('SELECT * FROM autos');
-            $result = '<table><tr><th>Make</th><th>Model</th><th>Year</th><th>Mileage</th><th>Action</th></tr>';
-            while ($row = $statement->fetch(PDO::FETCH_ASSOC)){
-                $links = '<a href ="edit.php?autos_id='.
-                        $row['autos_id'].
-                    '">Edit</a> / <a href ="delete.php?autos_id='.
-                        $row['autos_id'].
-                    '">Delete</a>';
-                $result.=(
-                    '<tr><td>'
-                        .$row['make'].
-                    '</td><td>'
-                        .$row['model'].
-                    '</td><td>'
-                        .$row['year'].
-                    '</td><td>'
-                        .$row['mileage'].
-                    '</td><td>'.
-                        $links.
-                    '</td></tr>'
-                );
-            
-            }
-            if ($result == '<table><tr><th>Make</th><th>Model</th><th>Year</th><th>Mileage</th><th>Action</th></tr>'){
-                $result = '<div>No rows found</div>';
-            }else{
-                $result.='</table>';
-            }
-            $result.='<div><a href="add.php">Add New Entry</a></div><div><a href = "logout.php">Logout</a></div>';
-            return ($result);
-        }else{
-            return('<a href="login.php">Please Log In</a>');
-        }
-    }
+    $err_msg = print_err();
 ?>
 <!DOCTYPE html>
 <html>
@@ -47,8 +15,9 @@
         <h1>
             Welcome to the Automobiles Database
         </h1>
+        <?= $err_msg ?>
         <div>
-            <?= db_print($pdo) ?>
+            <?= print_db($pdo) ?>
         </div>
 
     </body>

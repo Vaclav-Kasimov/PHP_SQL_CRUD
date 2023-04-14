@@ -10,3 +10,72 @@
 [08-Apr-2023 18:29:56 Europe/Moscow] PHP Stack trace:
 [08-Apr-2023 18:29:56 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
 [08-Apr-2023 18:29:56 Europe/Moscow] Login success 
+[14-Apr-2023 00:49:54 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 27
+[14-Apr-2023 00:49:54 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 00:49:54 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 00:49:54 Europe/Moscow] Login success 
+[14-Apr-2023 01:45:21 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 29
+[14-Apr-2023 01:45:21 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:45:21 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 01:45:21 Europe/Moscow] Login success 
+[14-Apr-2023 01:47:14 Europe/Moscow] PHP Warning:  Undefined array key "success" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php on line 18
+[14-Apr-2023 01:47:14 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:47:14 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php:0
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php on line 2
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:0
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   2. require_once() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:5
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   3. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:2
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 3
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:0
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   2. require_once() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:6
+[14-Apr-2023 01:50:14 Europe/Moscow] PHP   3. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php:3
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php on line 2
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:0
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP   2. require_once() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:5
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP   3. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:2
+[14-Apr-2023 01:50:35 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 3
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:0
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   2. require_once() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/add.php:6
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   3. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php:3
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 3
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php:0
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   2. require_once() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php:4
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   3. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php:3
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP Notice:  session_start(): Ignoring session_start() because a session is already active in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php on line 6
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php:0
+[14-Apr-2023 01:50:36 Europe/Moscow] PHP   2. session_start() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/index.php:6
+[14-Apr-2023 16:38:12 Europe/Moscow] Login fail test@test.test 9205af0b1447c4a791a77dbdb5e78996
+[14-Apr-2023 16:38:17 Europe/Moscow] Login fail test@test.test 9077095925a464f8336e98954fad5fc4
+[14-Apr-2023 16:38:28 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 29
+[14-Apr-2023 16:38:28 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 16:38:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 16:38:28 Europe/Moscow] Login success 
+[14-Apr-2023 17:00:46 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php on line 29
+[14-Apr-2023 17:00:46 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 17:00:46 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 17:00:46 Europe/Moscow] Login success 
+[14-Apr-2023 17:37:54 Europe/Moscow] Login fail kasimov.vyacheslav.aaa@gmail.com f930e113c9db1177a2059d46d237ef37
+[14-Apr-2023 17:37:59 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 45
+[14-Apr-2023 17:37:59 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 17:37:59 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 17:37:59 Europe/Moscow] PHP   2. login() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:8
+[14-Apr-2023 17:37:59 Europe/Moscow] Login success 
+[14-Apr-2023 19:45:10 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 45
+[14-Apr-2023 19:45:10 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 19:45:10 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[14-Apr-2023 19:45:10 Europe/Moscow] PHP   2. login() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:8
+[14-Apr-2023 19:45:10 Europe/Moscow] Login success 
+[14-Apr-2023 19:48:53 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 56
+[14-Apr-2023 19:48:53 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 19:48:53 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
+[14-Apr-2023 19:48:54 Europe/Moscow] PHP   2. get_autos_make($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:17
+[14-Apr-2023 19:48:54 Europe/Moscow] PHP   3. check_autos_id($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:68
+[14-Apr-2023 19:48:54 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 20
+[14-Apr-2023 19:48:54 Europe/Moscow] PHP Stack trace:
+[14-Apr-2023 19:48:54 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
