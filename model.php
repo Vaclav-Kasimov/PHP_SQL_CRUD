@@ -54,7 +54,7 @@
             die('Not logged in');
         }
     }
-    function error_handler_insert_add(){
+    function error_handler_insert_edit(){
         if (strlen($_POST['model']) < 1 || strlen($_POST['make']) < 1 || strlen($_POST['mileage']) < 1 || strlen($_POST['year']) < 1){
             $_SESSION['error'] ='All fields are required';
             return true;
@@ -65,12 +65,14 @@
             return false;
         }
     }
-    function get_autos_make($pdo){
+    function get_autos($pdo){
         if (!check_autos_id($pdo)){
             header('Location: index.php');
             return;
         }   else{
-            return htmlentities(find_by_primary_key($pdo,$_GET['autos_id'])['make']);
+            return find_by_primary_key($pdo,$_GET['autos_id']);
         }
     }
+
+
 ?>

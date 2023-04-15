@@ -14,7 +14,7 @@
     <head><title>Kasimov Viacheslav</title></head>
     <body>
         <div>
-            Confirm: Deleting <?= get_autos_make($pdo) ?>
+            Confirm: Deleting <?= get_autos($pdo)['make'] ?>
         </div>
         <form method="post">
             <?='<input type="hidden" name="autos_id" value="'.htmlentities($_GET['autos_id']).'">'?>

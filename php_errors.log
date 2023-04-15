@@ -79,3 +79,86 @@
 [14-Apr-2023 19:48:54 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 20
 [14-Apr-2023 19:48:54 Europe/Moscow] PHP Stack trace:
 [14-Apr-2023 19:48:54 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
+[15-Apr-2023 13:00:27 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 45
+[15-Apr-2023 13:00:27 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:00:27 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[15-Apr-2023 13:00:27 Europe/Moscow] PHP   2. login() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:8
+[15-Apr-2023 13:00:27 Europe/Moscow] Login success 
+[15-Apr-2023 13:00:59 Europe/Moscow] PHP Fatal error:  Uncaught TypeError: htmlentities(): Argument #1 ($string) must be of type string, array given in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:73
+Stack trace:
+#0 /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php(73): htmlentities()
+#1 /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php(10): get_autos()
+#2 {main}
+  thrown in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php on line 73
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Warning:  Undefined array key "model" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 30
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Warning:  Undefined array key "year" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 34
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Warning:  Undefined array key "mileage" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 38
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:01:04 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 26
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 30
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 34
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 38
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 13:02:46 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:02:13 Europe/Moscow] PHP Warning:  Undefined array key "email" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 67
+[15-Apr-2023 14:02:13 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:02:13 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:0
+[15-Apr-2023 14:02:13 Europe/Moscow] PHP   2. login() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/login.php:8
+[15-Apr-2023 14:02:13 Europe/Moscow] Login success 
+[15-Apr-2023 14:04:26 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 17
+[15-Apr-2023 14:04:26 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:26 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
+[15-Apr-2023 14:04:28 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 17
+[15-Apr-2023 14:04:28 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:28 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 78
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   2. get_autos($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:10
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   3. check_autos_id($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:69
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 26
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 30
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 34
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 38
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:33 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Warning:  Undefined array key "autos_id" in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/controller.php on line 78
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   2. get_autos($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:10
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   3. check_autos_id($pdo = class PDO {  }) /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/model.php:69
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 26
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 30
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 34
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php on line 38
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:04:41 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/edit.php:0
+[15-Apr-2023 14:07:04 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 17
+[15-Apr-2023 14:07:04 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:07:04 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0
+[15-Apr-2023 14:07:05 Europe/Moscow] PHP Warning:  Trying to access array offset on value of type null in /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php on line 17
+[15-Apr-2023 14:07:05 Europe/Moscow] PHP Stack trace:
+[15-Apr-2023 14:07:05 Europe/Moscow] PHP   1. {main}() /media/user/MoreFiles/Учеба/WA4E/PHP_SQL_CRUD/delete.php:0

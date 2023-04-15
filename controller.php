@@ -1,7 +1,7 @@
 <?php
     function data_insert($pdo){
         if (isset($_POST['dopost'])){
-            if (error_handler_insert_add()){
+            if (error_handler_insert_edit()){
                 header('Location: '.$_SERVER['PHP_SELF']);
                 return;
             }
@@ -15,6 +15,28 @@
                 ));
                 header('location: index.php');
                 $_SESSION['success'] = 'Record inserted';
+                return;
+            }
+        }
+    }
+
+    function data_edit($pdo){
+        if (isset($_POST['dopost'])){
+            if (error_handler_insert_edit()){
+                header('Location: '.$_SERVER['PHP_SELF'].'?autos_id='.$_GET['autos_id']);
+                return;
+            }
+            else{
+                $stmt = $pdo->prepare('UPDATE autos SET make = :mk, year = :yr, mileage = :mi, model = :md WHERE autos_id = :id');
+                $stmt->execute(array(
+                    ':mk' => htmlentities($_POST['make']),
+                    ':yr' => $_POST['year'],
+                    ':mi' => $_POST['mileage'],
+                    ':md' => $_POST['model'],
+                    ':id' => $_GET['autos_id']
+                ));
+                header('location: index.php');
+                $_SESSION['success'] = 'Record edited';
                 return;
             }
         }
@@ -48,7 +70,7 @@
         }
     }
     function find_by_primary_key($pdo,$key){
-        $stmt = $pdo->prepare('SELECT make FROM autos WHERE autos_id = :id');
+        $stmt = $pdo->prepare('SELECT * FROM autos WHERE autos_id = :id');
         $stmt->execute(array(':id' => $key));
         return $stmt->fetch(PDO::FETCH_ASSOC);
     }
